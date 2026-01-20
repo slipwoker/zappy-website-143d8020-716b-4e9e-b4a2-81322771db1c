@@ -1,0 +1,1131 @@
+<!DOCTYPE html><html lang="he" dir="rtl"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - מרפאת מחמד</title>
+  <meta name="description" content="Services - מרפאת מחמד provides professional שירותי בריאות וטרינריים services. Specializing in מרפאה וטרינרית.">
+  <meta name="keywords" content="מרפאה וטרינרית, וטרינר קרוב אלי, מרפאה וטרינרית מחמד, טיפול וטרינרי לכלבים וחתולים, מרפאה וטרינרית">
+  <meta name="robots" content="index, follow">
+  
+  <meta property="og:title" content="Services - מרפאת מחמד">
+  <meta property="og:description" content="Services - מרפאת מחמד provides professional שירותי בריאות וטרינריים services. Specializing in מרפאה וטרינרית.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Services - מרפאת מחמד">
+  <meta name="twitter:description" content="Services - מרפאת מחמד provides professional שירותי בריאות וטרינריים services. Specializing in מרפאה וטרינרית.">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+      direction: ltr !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '143d8020-716b-4e9e-b4a2-81322771db1c',
+    apiUrl: 'http://localhost:5001/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: #333 !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+  <nav class="navbar" dir="rtl">
+  <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    </svg>
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    </svg>
+  </button>
+  
+  <button class="phone-header-btn" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+    </svg>
+  </button>
+  
+  <div class="nav-container">
+    <div class="nav-right-group"><div class="nav-brand">
+      <a href="/" class="logo-link"><img class="logo" src="/assets/business-logo.webp" alt="מרפאת מחמד"></a>
+    </div><ul class="nav-menu" id="navMenu">
+      <li><a href="/services">שירותים</a></li>
+      <li><a href="/about">אודות</a></li>
+    </ul></div>
+    
+    
+    
+    <div class="nav-cta-container">
+      <a href="/contact" class="nav-cta-btn">צור קשר</a>
+    </div>
+  </div>
+</nav>
+  
+  <main>
+    <section class="services-hero-section" data-layout-spec="Services-hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="content-wrapper">
+        <h1>שירותים וטרינריים</h1>
+        <p class="hero-description">המרפאה שלנו מספקת טיפול מונע ותומך עם הסברים ברורים. אנחנו כאן כדי לתת לחיית המחמד שלכם את הטיפול הטוב ביותר, תוך שמירה על רוגע והבנה בכל שלב.</p>
+      </div>
+    </div>
+    <div class="hero-illustration">
+      <div class="animal-stack">
+        <div class="animal-icon dog-icon">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="35" fill="#FFD970" opacity="0.3"></circle>
+            <path d="M40 45 Q35 35 30 40 L35 50 Z" fill="#0B6B63" stroke="#0B6B63" stroke-width="2"></path>
+            <path d="M80 45 Q85 35 90 40 L85 50 Z" fill="#0B6B63" stroke="#0B6B63" stroke-width="2"></path>
+            <circle cx="60" cy="55" r="22" fill="none" stroke="#0B6B63" stroke-width="3"></circle>
+            <circle cx="52" cy="52" r="3" fill="#0B6B63"></circle>
+            <circle cx="68" cy="52" r="3" fill="#0B6B63"></circle>
+            <path d="M60 58 L60 65 M55 65 Q60 68 65 65" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <div class="animal-icon cat-icon">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="35" fill="#F4B400" opacity="0.3"></circle>
+            <path d="M35 40 L30 25 L40 35 Z" fill="#0B6B63" stroke="#0B6B63" stroke-width="2"></path>
+            <path d="M85 40 L90 25 L80 35 Z" fill="#0B6B63" stroke="#0B6B63" stroke-width="2"></path>
+            <circle cx="60" cy="58" r="20" fill="none" stroke="#0B6B63" stroke-width="3"></circle>
+            <circle cx="53" cy="55" r="2.5" fill="#0B6B63"></circle>
+            <circle cx="67" cy="55" r="2.5" fill="#0B6B63"></circle>
+            <path d="M60 60 L60 66 M54 66 L60 68 L66 66" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M45 58 L35 56 M75 58 L85 56" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <div class="animal-icon rabbit-icon">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="35" fill="#E64B3C" opacity="0.2"></circle>
+            <ellipse cx="45" cy="35" rx="8" ry="22" fill="#0B6B63" stroke="#0B6B63" stroke-width="2"></ellipse>
+            <ellipse cx="75" cy="35" rx="8" ry="22" fill="#0B6B63" stroke="#0B6B63" stroke-width="2"></ellipse>
+            <circle cx="60" cy="60" r="18" fill="none" stroke="#0B6B63" stroke-width="3"></circle>
+            <circle cx="54" cy="57" r="2" fill="#0B6B63"></circle>
+            <circle cx="66" cy="57" r="2" fill="#0B6B63"></circle>
+            <path d="M60 62 L60 68 M56 68 Q60 70 64 68" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <div class="animal-icon parrot-icon">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="35" fill="#0F6F8C" opacity="0.25"></circle>
+            <circle cx="60" cy="55" r="20" fill="none" stroke="#0B6B63" stroke-width="3"></circle>
+            <path d="M75 50 Q85 48 88 52 L80 54 Z" fill="#F4B400" stroke="#0B6B63" stroke-width="2"></path>
+            <circle cx="54" cy="52" r="2.5" fill="#0B6B63"></circle>
+            <circle cx="66" cy="52" r="2.5" fill="#0B6B63"></circle>
+            <path d="M55 60 Q60 58 65 60" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M50 68 Q55 72 60 70 Q65 72 70 68" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="reassurance-strip">
+    <div class="reassurance-item">
+      <div class="reassurance-icon">
+        <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="30" cy="30" r="24" fill="none" stroke="#0B6B63" stroke-width="2.5"></circle>
+          <path d="M20 30 L26 36 L40 22" fill="none" stroke="#0B6B63" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M30 10 L30 18 M30 42 L30 50 M10 30 L18 30 M42 30 L50 30" stroke="#F4B400" stroke-width="2" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <p class="reassurance-text">מבוסס ראיות מדעיות</p>
+    </div>
+    <div class="reassurance-item">
+      <div class="reassurance-icon">
+        <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 15 Q20 20 20 30 Q20 40 30 45 Q40 40 40 30 Q40 20 30 15 Z" fill="none" stroke="#0B6B63" stroke-width="2.5"></path>
+          <path d="M26 28 Q28 32 30 30 Q32 32 34 28" fill="none" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></path>
+          <circle cx="25" cy="26" r="1.5" fill="#0B6B63"></circle>
+          <circle cx="35" cy="26" r="1.5" fill="#0B6B63"></circle>
+          <path d="M18 25 Q15 22 16 20 M42 25 Q45 22 44 20" stroke="#F4B400" stroke-width="2" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <p class="reassurance-text">טיפול עדין ומכבד</p>
+    </div>
+    <div class="reassurance-item">
+      <div class="reassurance-icon">
+        <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15" y="20" width="30" height="25" rx="3" fill="none" stroke="#0B6B63" stroke-width="2.5"></rect>
+          <path d="M20 20 L20 16 Q20 13 23 13 L37 13 Q40 13 40 16 L40 20" fill="none" stroke="#0B6B63" stroke-width="2.5"></path>
+          <path d="M25 30 L28 33 L35 26" fill="none" stroke="#F4B400" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <line x1="22" y1="38" x2="38" y2="38" stroke="#0B6B63" stroke-width="2" stroke-linecap="round"></line>
+        </svg>
+      </div>
+      <p class="reassurance-text">צעדים ברורים והסברים מפורטים</p>
+    </div>
+  </div>
+</section>
+
+<section class="services-features-section" data-layout-spec="Services-features">
+  <div class="features-container">
+    <div class="section-header">
+      <h2 class="section-title">השירותים שלנו</h2>
+      <p class="section-subtitle">טיפול מקיף ומקצועי לבריאות חיית המחמד שלכם</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <img data-placeholder="services-wellness-icon" data-context="Friendly illustrated pictogram icon of a veterinarian examining a happy pet with a stethoscope, simple line art style in teal and gold colors, warm and professional" width="120" height="120" src="/assets/site-services-image-1.webp" alt="בדיקות רווחה">
+        </div>
+        <h3 class="service-title">בדיקות רווחה</h3>
+        <p class="service-description">בדיקות תקופתיות מקיפות לוודא שחיית המחמד שלכם נשארת בריאה ושמחה. אנחנו בודקים את כל המערכות החיוניות ומזהים בעיות בשלב מוקדם.</p>
+        <p class="service-description">המלצה: ביקור אחת לשנה לחיות צעירות ופעמיים בשנה לחיות מבוגרות.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img data-placeholder="services-vaccination-icon" data-context="Friendly illustrated pictogram icon of a vaccine syringe with a protective shield, simple line art style in teal and gold colors, conveying safety and prevention" width="120" height="120" src="/assets/site-services-image-2.webp" alt="חיסונים ומניעת טפילים">
+        </div>
+        <h3 class="service-title">חיסונים ומניעת טפילים</h3>
+        <p class="service-description">תוכנית חיסונים מותאמת אישית לחיית המחמד שלכם, כולל הגנה מפני מחלות נפוצות. אנחנו גם מספקים טיפולים למניעת פרעושים, קרציות וטפילים פנימיים.</p>
+        <p class="service-description">חיסונים שנתיים הם חיוניים לשמירה על בריאות ארוכת טווח.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img data-placeholder="services-nutrition-icon" data-context="Friendly illustrated pictogram icon of a food bowl with healthy ingredients and a heart symbol, simple line art style in teal and gold colors, representing nutrition and care" width="120" height="120" src="/assets/site-services-image-3.webp" alt="ייעוץ תזונתי">
+        </div>
+        <h3 class="service-title">ייעוץ תזונתי</h3>
+        <p class="service-description">תזונה נכונה היא הבסיס לבריאות טובה. אנחנו מספקים המלצות מותאמות אישית לגיל, גזע ומצב הבריאותי של חיית המחמד שלכם.</p>
+        <p class="service-description">נעזור לכם לבחור את המזון המתאים ביותר ולשמור על משקל בריא.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img data-placeholder="services-skin-icon" data-context="Friendly illustrated pictogram icon of a pet with a magnifying glass examining skin/ear area, simple line art style in teal and gold colors, showing gentle care" width="120" height="120" src="/assets/site-services-image-4.webp" alt="בעיות עור ואוזניים">
+        </div>
+        <h3 class="service-title">בעיות עור ואוזניים</h3>
+        <p class="service-description">טיפול בגירוד, זיהומים, אלרגיות ובעיות דרמטולוגיות נוספות. אנחנו מבצעים בדיקות יסודיות ומציעים טיפולים יעילים להקלה מהירה.</p>
+        <p class="service-description">זיהוי מוקדם של בעיות עור יכול למנוע אי נוחות ממושכת.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img data-placeholder="services-injuries-icon" data-context="Friendly illustrated pictogram icon of a first aid kit with a bandage and plus symbol, simple line art style in teal and gold colors, conveying healing and support" width="120" height="120" src="/assets/site-services-image-5.webp" alt="פציעות קלות ותמיכה בכאב">
+        </div>
+        <h3 class="service-title">פציעות קלות ותמיכה בכאב</h3>
+        <p class="service-description">טיפול בחתכים, שריטות, נקעים ופציעות קלות אחרות. אנחנו גם מספקים ניהול כאב בטוח ויעיל לחיות הסובלות מאי נוחות.</p>
+        <p class="service-description">הקלה מהירה וטיפול מקצועי לשיפור איכות החיים של חיית המחמד שלכם.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img data-placeholder="services-senior-icon" data-context="Friendly illustrated pictogram icon of an elderly pet with a heart and calendar symbol, simple line art style in teal and gold colors, showing gentle senior care" width="120" height="120" src="/assets/site-services-image-6.webp" alt="מעקב אחר חיות מבוגרות">
+        </div>
+        <h3 class="service-title">מעקב אחר חיות מבוגרות</h3>
+        <p class="service-description">חיות מבוגרות זקוקות לתשומת לב מיוחדת. אנחנו מציעים בדיקות תקופתיות, בדיקות דם וניטור מתמשך כדי לזהות שינויים מוקדם.</p>
+        <p class="service-description">מעקב קבוע מאפשר לנו לספק טיפול מונע ולשמור על איכות חיים גבוהה.</p>
+      </div>
+    </div>
+
+    <div class="educational-module">
+      <div class="module-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+          <circle cx="60" cy="60" r="55" fill="#F4B400" opacity="0.2"></circle>
+          <circle cx="60" cy="60" r="45" fill="none" stroke="#F4B400" stroke-width="3"></circle>
+          <path d="M60 30 L60 60 L80 70" fill="none" stroke="#0B6B63" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+          <circle cx="60" cy="60" r="6" fill="#0B6B63"></circle>
+          <text x="60" y="100" text-anchor="middle" font-size="24" font-weight="bold" fill="#0B6B63">i</text>
+        </svg>
+      </div>
+      <div class="module-content">
+        <h3 class="module-title">איך להתכונן לביקור במרפאה וטרינרית</h3>
+        <p class="module-text"><strong>הגיעו רגועים:</strong> חיות מחמד מרגישות את המתח שלכם. נסו להישאר רגועים ולדבר בטון מרגיע. אם חיית המחמד שלכם נרגשת, תנו לה זמן להסתגל לסביבה החדשה לפני הבדיקה.</p>
+        <p class="module-text"><strong>הביאו רשומות רפואיות:</strong> אם זה הביקור הראשון שלכם אצלנו, הביאו את כל התיעוד הרפואי הקודם - כולל היסטוריית חיסונים, תוצאות בדיקות ורשימת תרופות נוכחיות. זה עוזר לנו להבין את המצב הבריאותי המלא.</p>
+        <p class="module-text"><strong>שימו לב לציר זמן של התסמינים:</strong> אם חיית המחמד שלכם חולה, נסו לזכור מתי התסמינים התחילו, כמה זמן הם נמשכים ואם יש דפוסים מסוימים (למשל, גרוע יותר בלילה). מידע זה מאוד עוזר באבחון מדויק.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-cta-section" data-layout-spec="Services-cta">
+  <div class="services-cta-container">
+    <div class="cta-content">
+      <h2 class="cta-heading">לא בטוחים איזה שירות מתאים?</h2>
+      <p class="cta-description">צוות מרפאת מחמד כאן כדי לעזור לכם לבחור את הטיפול הנכון לחיית המחמד שלכם. צרו קשר ונדריך אתכם בהתאמה אישית.</p>
+      <a href="#contact" class="cta-button">
+        <i class="fas fa-comments" aria-hidden="true"></i>
+        <span>צרו קשר לייעוץ</span>
+      </a>
+    </div>
+
+    <div class="guidance-grid">
+      <div class="guidance-item">
+        <div class="icon-wrapper">
+          <svg class="guidance-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <h3 class="guidance-title">האם זה דחוף?</h3>
+        <p class="guidance-text">נעזור לכם להבין אם המצב דורש טיפול מיידי או שניתן לתאם ביקור רגיל. בטיחות חיית המחמד שלכם היא בראש סדר העדיפויות.</p>
+      </div>
+
+      <div class="guidance-item">
+        <div class="icon-wrapper">
+          <svg class="guidance-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12h4l3 9 4-18 3 9h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <h3 class="guidance-title">על מה לשים לב בבית</h3>
+        <p class="guidance-text">נספק לכם הנחיות ברורות למעקב אחר תסמינים והתנהגות בין הביקורים. ידע הוא כוח כשמדובר בבריאות.</p>
+      </div>
+
+      <div class="guidance-item">
+        <div class="icon-wrapper">
+          <svg class="guidance-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M9 11l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <h3 class="guidance-title">מה להביא לביקור</h3>
+        <p class="guidance-text">רשימה מותאמת אישית של מסמכים, היסטוריה רפואית וכל מידע נוסף שיעזור לנו לספק את הטיפול הטוב ביותר.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  
+  <footer class="site-footer"><div class="footer-container"><div class="footer-grid"><div class="footer-column footer-about"><img src="/assets/business-logo.webp" alt="מרפאת מחמד" class="logo"><p class="footer-description">מרפאה וטרינרית מובילה המספקת שירותי בריאות מקצועיים לחיות המחמד שלכם במסירות ואהבה.</p></div><div class="footer-column footer-links"><h3>קישורים מהירים</h3><ul><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-column footer-contact"><h3>יצירת קשר</h3><ul><li><i class="fas fa-envelope"></i><a href="mailto:[business_email]">[business_email]</a></li><li><i class="fas fa-phone"></i><a href="tel:[business_phone]">[business_phone]</a></li><li><a href="/services"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></a></li></ul></div><div class="footer-column footer-social"><h3>עקבו אחרינו</h3><div class="social-links"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div></div><div class="footer-bottom"><div class="legal-links"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאים והגבלות</a><span class="separator">|</span><a href="/accessibility">נגישות</a></div><div class="footer-credits"><p class="copyright">© 2026 מרפאת מחמד. כל הזכויות שמורות.</p><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
+  
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <script src="/script.js"></script>
+
+
+<script>
+
+// Navbar Mobile Menu Toggle and Contrast Fix
+(function() {
+  // Use 'load' event instead of 'DOMContentLoaded' to ensure we run AFTER all other scripts
+  window.addEventListener('load', function() {
+    
+    // FIX MOBILE BUTTON CONTRAST
+    // Detect navbar background color and apply contrasting color to mobile buttons
+    const navbar = document.querySelector('.navbar, nav, header');
+    if (!navbar) {
+      console.log('[Navbar] Navbar element not found');
+      return;
+    }
+    
+    const computedStyle = window.getComputedStyle(navbar);
+    let bgColor = computedStyle.backgroundColor;
+    
+    console.log('[Navbar] Initial navbar background:', bgColor);
+    
+    // Check if background is transparent or rgba with 0 alpha
+    const isTransparent = bgColor === 'transparent' || 
+                         bgColor === 'rgba(0, 0, 0, 0)' ||
+                         (bgColor.startsWith('rgba') && bgColor.includes(', 0)'));
+    
+    if (isTransparent) {
+      // Check for background-image or gradient
+      const bgImage = computedStyle.backgroundImage;
+      if (bgImage && bgImage !== 'none') {
+        console.log('[Navbar] Navbar has background image/gradient, using dark text');
+        bgColor = 'rgb(240, 240, 240)'; // Assume light background
+      } else {
+        // Transparent navbar - check body background
+        const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+        console.log('[Navbar] Navbar transparent, using body background:', bodyBg);
+        bgColor = bodyBg;
+      }
+    }
+    
+    // Calculate luminance to determine if background is light or dark
+    const rgb = bgColor.match(/\d+/g);
+    if (rgb && rgb.length >= 3) {
+      const r = parseInt(rgb[0]);
+      const g = parseInt(rgb[1]);
+      const b = parseInt(rgb[2]);
+      const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+      
+      // Apply dynamic colors based on navbar background luminance
+      const mobileToggle = document.querySelector('.mobile-toggle');
+      const phoneBtn = document.querySelector('.phone-header-btn');
+      
+      // Determine hamburger color based on background luminance
+      // Dark background (luminance < 0.5) → use light text
+      // Light background (luminance >= 0.5) → use dark text
+      const hamburgerColor = luminance < 0.5 
+        ? 'var(--text-light, #ffffff)' 
+        : 'var(--text-dark, #1a1a1a)';
+      
+      // Phone CTA uses accent color for visibility
+      const phoneColor = 'var(--accent, #f59e0b)';
+      
+      if (mobileToggle) {
+        mobileToggle.style.color = hamburgerColor;
+        console.log('[Navbar] Set hamburger color:', hamburgerColor, '(luminance:', luminance.toFixed(2) + ')');
+      }
+      
+      if (phoneBtn) {
+        phoneBtn.style.color = phoneColor;
+        console.log('[Navbar] Set phone CTA color:', phoneColor);
+      }
+      
+      console.log('[Navbar] Mobile buttons colors applied:', { 
+        bgColor, 
+        luminance: luminance.toFixed(2),
+        hamburgerColor,
+        phoneColor,
+        buttons: { mobileToggle: !!mobileToggle, phoneBtn: !!phoneBtn }
+      });
+      
+      // FIX ICON SIZES - Ensure SVGs are properly sized and visible
+      // INJECT CRITICAL CSS TO OVERRIDE ANY CONFLICTING RULES
+      const criticalCSS = document.createElement('style');
+      criticalCSS.id = 'zappy-mobile-nav-fix';
+      const htmlLang = document.documentElement.lang || 'en';
+      const htmlDir = document.documentElement.dir || 'ltr';
+      // Check both dir attribute AND lang for RTL detection
+      // dir="rtl" is the most reliable indicator
+      const isRTL = htmlDir === 'rtl' || htmlLang === 'he' || htmlLang === 'ar';
+      
+      criticalCSS.textContent = `
+        /* Hide mobile buttons on desktop, show only on mobile */
+        @media (min-width: 769px) {
+          .mobile-toggle,
+          .phone-header-btn {
+            display: none !important;
+          }
+        }
+        
+        /* Show and position mobile buttons correctly on mobile */
+        @media (max-width: 768px) {
+          .mobile-toggle,
+          .phone-header-btn {
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            z-index: 1001 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 44px !important;
+            height: 44px !important;
+            border-radius: 50% !important;
+            border: none !important;
+            cursor: pointer !important;
+            padding: 8px !important;
+            background: none !important;
+          }
+          
+          .mobile-toggle {
+            color: ${hamburgerColor} !important;
+          }
+          
+          .phone-header-btn {
+            color: ${phoneColor} !important;
+          }
+          
+          /* LTR positioning (default): hamburger LEFT, phone RIGHT */
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .mobile-toggle,
+          html[dir="ltr"] .mobile-toggle {
+            left: 20px !important;
+            right: auto !important;
+          }
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .phone-header-btn,
+          html[dir="ltr"] .phone-header-btn {
+            right: 20px !important;
+            left: auto !important;
+          }
+          
+          /* RTL positioning: hamburger RIGHT, phone LEFT */
+          html[dir="rtl"] .mobile-toggle,
+          html[lang="he"] .mobile-toggle,
+          html[lang="ar"] .mobile-toggle {
+            right: 20px !important;
+            left: auto !important;
+          }
+          html[dir="rtl"] .phone-header-btn,
+          html[lang="he"] .phone-header-btn,
+          html[lang="ar"] .phone-header-btn {
+            left: 20px !important;
+            right: auto !important;
+          }
+          
+          /* Ensure SVG icons are properly sized and inherit color */
+          .mobile-toggle svg,
+          .phone-header-btn svg {
+            width: 24px !important;
+            height: 24px !important;
+            /* Don't force display - let JavaScript control hamburger/close toggle */
+          }
+          
+          /* ===========================================
+             MOBILE LANGUAGE SWITCHER POSITIONING & COLOR
+             =========================================== */
+          .nav-cta-container {
+            display: flex !important;
+            position: absolute !important;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+            background: transparent !important;
+            width: auto !important;
+            z-index: 1001 !important;
+          }
+          
+          /* Hide CTA button on mobile */
+          .nav-cta-container .nav-cta-btn,
+          .nav-cta-container > a:not(.lang-option):not(.lang-switcher-current) {
+            display: none !important;
+          }
+          
+          /* LTR: language switcher near hamburger (left side) */
+          html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .nav-cta-container,
+          html[dir="ltr"] .nav-cta-container {
+            left: 30px !important;
+            right: auto !important;
+          }
+          
+          /* RTL: language switcher near hamburger (right side) */
+          html[dir="rtl"] .nav-cta-container,
+          html[lang="he"] .nav-cta-container,
+          html[lang="ar"] .nav-cta-container {
+            right: 30px !important;
+            left: auto !important;
+          }
+          
+          /* Language switcher icon - dark color for visibility on light navbar */
+          .lang-switcher-current {
+            color: var(--text-dark, #1a1a1a) !important;
+          }
+          .lang-switcher-current svg {
+            fill: var(--text-dark, #1a1a1a) !important;
+          }
+        }
+      `;
+      
+      // Remove existing fix if present and inject new one
+      const existing = document.getElementById('zappy-mobile-nav-fix');
+      if (existing) existing.remove();
+      document.head.appendChild(criticalCSS);
+      
+      console.log('[Navbar] Critical CSS injected for mobile nav positioning');
+      
+      // ONLY apply inline positioning styles on mobile viewport
+      // On desktop, the CSS handles hiding these buttons with display: none
+      // Inline styles were breaking desktop layout by overriding CSS
+      const isMobileViewport = window.innerWidth <= 768;
+      
+      if (mobileToggle) {
+        // Icon sizing applies to all viewports for consistency
+        const hamburgerIcon = mobileToggle.querySelector('.hamburger-icon');
+        const closeIcon = mobileToggle.querySelector('.close-icon');
+        
+        if (hamburgerIcon) {
+          hamburgerIcon.style.setProperty('width', '24px', 'important');
+          hamburgerIcon.style.setProperty('height', '24px', 'important');
+          hamburgerIcon.style.setProperty('display', 'block', 'important'); // Show hamburger by default
+        }
+        if (closeIcon) {
+          closeIcon.style.setProperty('width', '24px', 'important');
+          closeIcon.style.setProperty('height', '24px', 'important');
+          closeIcon.style.setProperty('display', 'none', 'important'); // Hide close icon by default
+        }
+        
+        // ONLY set positioning inline styles on mobile
+        if (isMobileViewport) {
+          mobileToggle.style.setProperty('position', 'absolute', 'important');
+          mobileToggle.style.setProperty('top', '50%', 'important');
+          mobileToggle.style.setProperty('transform', 'translateY(-50%)', 'important');
+          mobileToggle.style.setProperty('z-index', '1001', 'important');
+          
+          // Clear any inline left/right so CSS can take over based on html[dir]
+          mobileToggle.style.removeProperty('left');
+          mobileToggle.style.removeProperty('right');
+          
+          console.log('[Navbar] Mobile toggle positioning applied (mobile viewport)');
+        } else {
+          // On desktop, clear any positioning styles to let CSS handle it
+          mobileToggle.style.removeProperty('position');
+          mobileToggle.style.removeProperty('top');
+          mobileToggle.style.removeProperty('transform');
+          mobileToggle.style.removeProperty('z-index');
+          mobileToggle.style.removeProperty('left');
+          mobileToggle.style.removeProperty('right');
+          console.log('[Navbar] Desktop viewport - cleared mobile toggle inline positioning');
+        }
+      }
+      
+      if (phoneBtn) {
+        // Icon sizing applies to all viewports
+        const phoneIcon = phoneBtn.querySelector('svg');
+        if (phoneIcon) {
+          phoneIcon.style.width = '24px';
+          phoneIcon.style.height = '24px';
+          phoneIcon.setAttribute('width', '24');
+          phoneIcon.setAttribute('height', '24');
+        }
+        
+        // ONLY set positioning inline styles on mobile
+        if (isMobileViewport) {
+          phoneBtn.style.setProperty('position', 'absolute', 'important');
+          phoneBtn.style.setProperty('top', '50%', 'important');
+          phoneBtn.style.setProperty('transform', 'translateY(-50%)', 'important');
+          phoneBtn.style.setProperty('z-index', '1001', 'important');
+          
+          // Clear any inline left/right so CSS can take over based on html[dir]
+          phoneBtn.style.removeProperty('left');
+          phoneBtn.style.removeProperty('right');
+          
+          console.log('[Navbar] Phone button positioning applied (mobile viewport)');
+        } else {
+          // On desktop, clear any positioning styles to let CSS handle it
+          phoneBtn.style.removeProperty('position');
+          phoneBtn.style.removeProperty('top');
+          phoneBtn.style.removeProperty('transform');
+          phoneBtn.style.removeProperty('z-index');
+          phoneBtn.style.removeProperty('left');
+          phoneBtn.style.removeProperty('right');
+          console.log('[Navbar] Desktop viewport - cleared phone button inline positioning');
+        }
+      }
+    } else {
+      console.log('[Navbar] Could not parse background color:', bgColor);
+    }
+    
+    // MOBILE MENU TOGGLE
+    // EXPANDED SEARCH: Find toggle by ID or class (for cloned sites)
+    let mobileToggle = document.getElementById('mobileToggle') ||
+                       document.querySelector('.mobile-toggle') ||
+                       document.querySelector('.hamburger') ||
+                       document.querySelector('.hamburger-menu') ||
+                       document.querySelector('.menu-toggle') ||
+                       document.querySelector('.burger-menu') ||
+                       document.querySelector('[aria-label="Menu"]') ||
+                       document.querySelector('[aria-label="תפריט"]');
+    
+    // EXPANDED SEARCH: Find nav menu by ID or class
+    let navMenu = document.getElementById('navMenu') ||
+                  document.querySelector('.nav-menu') ||
+                  document.querySelector('.nav-links') ||
+                  document.querySelector('nav ul:not(.submenu)');
+    
+    if (!mobileToggle || !navMenu) {
+      console.log('[Navbar] Mobile toggle or menu not found:', { toggle: !!mobileToggle, menu: !!navMenu });
+      return;
+    }
+    
+    // Ensure navMenu has ID for CSS targeting
+    if (!navMenu.id) {
+      navMenu.id = 'navMenu';
+    }
+    
+    console.log('[Navbar] Initializing mobile menu...');
+    
+    // Remove any existing event listeners by cloning the button
+    const newToggle = mobileToggle.cloneNode(true);
+    mobileToggle.parentNode.replaceChild(newToggle, mobileToggle);
+    
+    // Toggle menu on button click - use newToggle now
+    newToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const hamburgerIcon = this.querySelector('.hamburger-icon');
+      const closeIcon = this.querySelector('.close-icon');
+      const isActive = navMenu.classList.contains('active');
+      
+      if (isActive) {
+        // Close menu
+        navMenu.classList.remove('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+        console.log('[Navbar] Menu closed');
+      } else {
+        // Open menu
+        navMenu.classList.add('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
+        document.body.style.overflow = 'hidden';
+        console.log('[Navbar] Menu opened');
+      }
+    });
+    
+    // Close menu when clicking nav links
+    const navLinks = navMenu.querySelectorAll('a');
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
+        const closeIcon = newToggle.querySelector('.close-icon');
+        
+        navMenu.classList.remove('active');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+        console.log('[Navbar] Menu closed (link clicked)');
+      });
+    });
+    
+    // Phone button functionality
+    const phoneBtn = document.querySelector('.phone-header-btn');
+    if (phoneBtn) {
+      phoneBtn.addEventListener('click', function() {
+        // Get phone number from placeholder in page or use default
+        const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+        const phoneNumber = phoneLinks.length > 0 
+          ? phoneLinks[0].getAttribute('href').replace('tel:', '')
+          : '[business_phone]';
+        
+        window.location.href = 'tel:' + phoneNumber;
+        console.log('[Navbar] Phone button clicked');
+      });
+    }
+    
+    console.log('[Navbar] Mobile menu initialized successfully');
+    
+    // === WHATSAPP BUTTON VISIBILITY FIX ===
+    // Ensure WhatsApp floating button is hidden on desktop and visible on mobile
+    // IMPORTANT: Only target the floating button by its class, NOT generic wa.me links
+    const handleWhatsAppVisibility = function() {
+      const whatsappBtn = document.querySelector('.whatsapp-float');
+      if (whatsappBtn) {
+        const isDesktop = window.innerWidth >= 769;
+        if (isDesktop) {
+          whatsappBtn.style.setProperty('display', 'none', 'important');
+          whatsappBtn.style.setProperty('visibility', 'hidden', 'important');
+          whatsappBtn.style.setProperty('opacity', '0', 'important');
+          whatsappBtn.style.setProperty('pointer-events', 'none', 'important');
+          console.log('[WhatsApp] Button hidden on desktop');
+        } else {
+          whatsappBtn.style.removeProperty('display');
+          whatsappBtn.style.removeProperty('visibility');
+          whatsappBtn.style.removeProperty('opacity');
+          whatsappBtn.style.removeProperty('pointer-events');
+          console.log('[WhatsApp] Button visible on mobile');
+        }
+      }
+    };
+    
+    // Run on load
+    handleWhatsAppVisibility();
+    
+    // Run on resize with debouncing
+    let resizeTimer;
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(handleWhatsAppVisibility, 100);
+    });
+  });
+})();
+
+</script>
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '143d8020-716b-4e9e-b4a2-81322771db1c';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('http://localhost:5001/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
+    })();
+    </script>
+</body></html>
