@@ -1,6 +1,4 @@
-# מרפאת מחמד — Generative Engine Optimization Map
-
-> A שירותי בריאות וטרינריים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -36,15 +34,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מרפאת מחמד
-מרפאת מחמד is a business in the שירותי בריאות וטרינריים industry.
-
-## Target Audience
-בעלי חיות מחמד
-
-## Industry
-שירותי בריאות וטרינריים
-
+## About Business
 ---
 
 # Additional Resources
